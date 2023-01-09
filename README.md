@@ -2,7 +2,7 @@
 
 Lamport Signatures are a digital signature scheme that uses a one-way function (hash function) to generate a signature. This is a one-time signature scheme, meaning that the same message cannot be signed twice. See [wikipedia](https://en.wikipedia.org/wiki/Lamport_signature) for more information.
 
-They are interesting as they are assumed to be secure against a quantum computer due to only relying on hash functions.
+Lamport signatures are interesting as they are assumed to be secure against quantum computers. This is because the one-way function used is a hash function, which is assumed to be secure against quantum computers.
 
 These notebooks are used for my own learning and are not intended to be a complete reference. They are based on the original paper by Lamport.
 
