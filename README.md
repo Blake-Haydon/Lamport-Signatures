@@ -8,8 +8,23 @@ These notebooks are used for my own learning and are not intended to be a comple
 
 ## **Notebooks**
 
+- [Single Bit Signing](single_bit_signature.ipynb): Simple example of signing a single bit message
 - [Naive Lamport Signatures](naive_lamport_signature.ipynb): A basic implementation of the original Lamport Signatures paper with uncompressed public and private keys
 - [Short Private Keys](short_private_key_signature.ipynb): Lamport Signatures with a short private key (48 bytes) by using a CSPRNG to generate the private key instead of random bits
+
+## **Interface for all implementations**
+
+### Generate a Keypair
+
+![Generate Keys Interface](images/GENERATE_KEYS_interface.png)
+
+### Sign a Message
+
+![Sign Message Interface](images/SIGN_interface.png)
+
+### Verify a Message
+
+![Verify Interface](images/VERIFY_interface.png)
 
 **References**:
 
